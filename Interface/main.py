@@ -36,7 +36,7 @@ while Run:
         buttons.draw_buttons(screen, Mirror_Button, "Mirror", (145, 223, 243), Button_Font)
 
     elif page=="dance":
-        Dance_title= Title_Font.render("Wich dance ?", True, (27, 42, 65))
+        Dance_title= Title_Font.render("Which dance ?", True, (27, 42, 65))
         screen.blit(Dance_title, Dance_title.get_rect(midtop=(screen.get_width() // 2, 30)))
         buttons.draw_buttons(screen, Back_Buttons, "Home", (90, 99, 108), Back_Buttons_font)
 
